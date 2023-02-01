@@ -1,0 +1,497 @@
+/* main */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+button{
+    font-family: 'Oswald', sans-serif;
+   
+   
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin: 0 -15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+}
+
+/* main */
+
+/* header */
+header {
+    position: absolute;
+    padding: 20px 0 0 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav img {
+    width: 50px;
+    height: 50px;
+}
+
+/* header */
+
+
+/* cover */
+#cover {
+    background-image: url('./images/main.png');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 150px);
+}
+
+.cover__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover__wrap {
+    /* padding: 80px 0 0 0; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.cover__wrap h1 {
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    margin: 0 0 15px 0;
+}
+
+.cover__wrap p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* cover */
+
+
+/* age */
+#age {
+    margin: -150px 0 0 0;
+}
+
+.age__container {
+    padding: 56.5px 0;
+    background: #F7F7F7;
+}
+
+.age__box {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.age__box p:nth-child(1) {
+    font-size: 72px;
+    color: #F7654A;
+}
+
+.age__box p:nth-child(2) {
+    font-size: 36px;
+
+}
+
+.age__box p:nth-child(3) {
+    font-size: 18px;
+    color: #999999;
+}
+
+/* age */
+
+
+/* projects */
+#projects {
+    padding: 100px 0;
+}
+
+#projects h2 {
+    color: #404149;
+}
+
+
+
+
+.projects__box img {
+    width: 100%;
+    margin: 0 0 66px 0;
+}
+
+.projects__box p:nth-child(2) {
+    font-size: 24px;
+    color: #404149;
+    margin: 0 0 20px 0;
+}
+
+.projects__box-pseudo {
+    position: relative;
+}
+
+.projects__box-pseudo:before {
+    content: '';
+    position: absolute;
+    background: #F7654A;
+    top: -15px;
+    height: 6px;
+    width: 55px;
+}
+
+.projects__box p:nth-child(3) {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    color: #999999;
+}
+
+/* projects */
+
+
+/* smart */
+#smart {
+    background: #F7654A;
+    padding: 40px 0;
+}
+
+.smart__wrap {
+    display: flex;
+}
+
+.smart__wrap div {
+    width: 50%;
+}
+
+.smart__wrap-first {
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.smart__wrap-first p:nth-child(1) {
+    font-size: 48px;
+}
+
+.smart__wrap-first p:nth-child(2) {
+    font-size: 24px;
+}
+
+.smart__wrap-second {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.smart__wrap-second button {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.smart__wrap-second button p {
+    letter-spacing: 0.05em;
+    font-size: 14px;
+}
+
+/* smart */
+
+
+/* wrap */
+#wrap{
+    padding: 100px 0;
+}
+
+.wrap__box{
+    background:  #F7F7F7;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.wrap__box p{
+    padding: 30px 0;
+}
+
+/* wrap */
+
+/* picture */
+#picture{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+#picture img{
+    height: 407px;
+    width: 25%;
+}
+/* picture */
+
+/* aaa */
+
+#aaa{
+    margin: 100px;
+    
+}
+.aaa__box {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin: 0 0 30px 0;
+
+}
+
+.aaa__box img{
+    width: 10px;
+    height: 10px;
+   
+}
+
+.aaa__box p{
+    font-size: 24px;
+    color: #F7654A
+}
+
+.lorem{
+    color: #999999;
+    margin: 0 0 30px 0;
+    font-family: 'Open Sans';
+}
+
+
+/* aaa */  
+
+
+/* ccc */
+ 
+#ccc{
+    background: #404149;
+    padding: 100px 0;
+}
+
+   
+
+#ccc h2{
+   color: white;
+}
+
+.ccc__wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+
+/* ccc */
+
+/* ddd */
+
+#ddd{
+    padding: 100px 0;
+   
+}
+
+.ddd__box{
+    background: #F7F7F7;
+    padding: 30px;
+    
+
+
+}
+
+.ddd__box p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #999999;
+    line-height: 21px;
+    padding: 25px;
+
+}
+
+#check {
+    color: black;
+    font-family: 'Oswald';
+}
+#check span {
+    color: red;
+    
+}
+/* ddd */
+
+
+
+
+/* vvv */
+
+#vvv{
+    background: #F7654A;
+    padding: 40px 0;
+
+}
+
+.vvv__wrap{
+    display: flex;
+}
+
+.vvv__wrap div{
+    width: 50%;
+}
+
+.vvv__wrap-first{
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    
+
+}
+.vvv__wrap-first p:nth-child(1){
+    font-size: 48px;
+}
+
+.vvv__wrap-first p:nth-child(2){
+    font-size: 24px;
+}
+
+.vvv__wrap-second {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.vvv__wrap-second button {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.vvv__wrap-second button p {
+    letter-spacing: 0.05em;
+    font-size: 14px;
+}
+
+
+/* vvv */
+
+/* port */
+
+#port{
+    padding: 50px;
+}
+
+.port__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.port__box img{
+    width: 40px;
+    height: 40px;
+}
+
+.port__box p:nth-child(2){
+    padding: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+}
+
+.port__box p:nth-child(3){
+    padding: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+}
+.kkk{
+    color: #F7654A;
+}
+
+
+
+
+/* port */
+
+/* end */
+
+#end{
+   height: 100px;
+   background: #404149;
+   
+}
+
+.container__end__box{
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+
+/* end */
